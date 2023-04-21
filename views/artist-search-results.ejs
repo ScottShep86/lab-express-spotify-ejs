@@ -1,0 +1,14 @@
+<h1>Artist Search Results</h1>
+
+<% data.body.artists.items.forEach(oneAlbum => { %>
+ <ul>
+    
+    <li><%- oneAlbum.name%></li>
+    <% if (oneAlbum.images) { %>
+    <li><img src=<%- oneAlbum.images[0].url %> alt="album cover"></li>
+    <% }  %>
+    
+    <a href="/albums">View Albums</a>
+ </ul>
+<% }) %>
+
