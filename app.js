@@ -62,7 +62,7 @@ app.get('/artist-search', (req, res) => {
     
   })
 
-  app.get('/albums/:artistId', (req, res, next) => {
+ /*  app.get('/albums/:artistId', (req, res, next) => {
     // .getArtistAlbums() code goes here
     spotifyApi.getArtistAlbums('artistId').then(
         function(data) {
@@ -72,6 +72,6 @@ app.get('/artist-search', (req, res) => {
           console.error(err);
         }
       );
-  })
+  }) */
 
 app.listen(3000, () => console.log('My Spotify project running on port 3000 🎧 🥁 🎸 🔊'))

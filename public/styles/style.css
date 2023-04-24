@@ -6,15 +6,20 @@
 * {
     margin: 0;
     font-family: GothamBook;
-    box-sizing: border-box;
-  }
+    box-sizing: border-box;    
+}
 
-body {
+/* body {
+    background-image: url(../images/spotify-background.jpeg);
+    background-size: cover;
+} */
+
+#home-page {
     background-image: url(../images/spotify-background.jpeg);
     background-size: cover;
 }
 
-#home-box {
+.home-box {
     height: 100vh;
     text-align: center;
    display: flex;
